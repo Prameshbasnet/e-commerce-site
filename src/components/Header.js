@@ -57,7 +57,7 @@ const Header = () => {
                         <div tabIndex={0} className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
                             <div className="card-body">
                                 <span className="font-bold text-lg">{productData.length} Items</span>
-                                <span className="text-info">Subtotal: Rs{totalAmt}</span>
+                                <span className="text-info">Subtotal: Rs: {totalAmt}</span>
                                 <div className="card-actions">
                                     <a className="btn btn-primary btn-block">
                                         <Link to="/cart">View Cart</Link>

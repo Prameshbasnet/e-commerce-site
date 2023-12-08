@@ -30,7 +30,7 @@ const Cart = () => {
             </h2>
             <p>
               Subtotal{''}
-              <span className='font-titleFont font-bold text-lg'> Rs{totalAmt}</span>
+              <span className='font-titleFont font-bold text-lg'> Rs: {totalAmt}</span>
             </p>
             <p className='flex items-start gap-4 text-base'>
               Shipping{''}
@@ -41,7 +41,7 @@ const Cart = () => {
           </div>
           <p>
             {''}
-            Total <span className='text-xl font-bold'>Rs{totalAmt}</span>
+            Total <span className='text-xl font-bold'>Rs: {totalAmt}</span>
           </p>
           <button className='btn mt-6 py-3'>proceed to checkout</button>
         </div>
